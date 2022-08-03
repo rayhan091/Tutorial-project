@@ -1,0 +1,75 @@
+body {
+    background-color: gray;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 12px;
+}
+
+#wrap {
+    width: 1000px;
+    height: 900px;
+    margin: auto;
+}
+
+#header {
+    width: 1000px;
+    height: 150px;
+}
+
+#content {
+    width: 1000px;
+}
+
+#left {
+    background-color: #FFEFD5;
+    width: 195px;
+    height: 870px;
+    float: left;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 15px;
+    text-align: center;
+}
+
+#left img {
+    padding-top: 300px;
+    padding-bottom: 15px;
+    padding-left: 3px;
+}
+
+.baca {
+    padding-left: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 14px;
+    color: #FFF5EE;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 97%;
+    padding: 18px 14px;
+}
+
+#right {
+    background-image: url(papankayu.jpg);
+    background-size: 180%;
+    width: 770px;
+    height: 870px;
+    float: left;
+}
+
+.judul {
+    text-align: center;
+    color: #FFE4B5;
+    font-family: Arial, Helvetica, sans-serifs;
+}
+
+ul {
+    text-align: left;
+    color: #EEE8AA;
+    font-style: italic;
+    font-size: 17px;
+    display: grid;
+    list-style-type: none;
+    padding-bottom: 20px;
+    grid-template-columns: repeat(4, auto);
+    grid-template-rows: repeat(4, auto);
+}
